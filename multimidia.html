@@ -5,6 +5,7 @@
         <meta charset="UTF-8"/> <!-- Define um charset latino, senão fica desconfigurado, por padrão é anc ou ans -->
         <title>Google Glass</title> <!-- Título da aba do navegador -->
         <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
     </head>
     <script src="javascript/funcoes.js"></script>
     <body>
@@ -46,17 +47,29 @@
                         </ul>
                     </nav>
                 </header>
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+            <section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>
+            <h3>Glass > Multimídia</h3>
+            <h1>Sons e Vídeos</h1>
+            <h2>por Vitor Bugiani</h2>
+            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
 
-
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
-
+        <div id="tv-radio">
+            <audio id="musica" controls>
+                <source src="media/2009-lovers-carvings-bibio.mp3"/>
+                Desculpe, mas não foi possível carregar o vídeo obs: verifique se seu navegador esta desatualizado.
+            </audio>
+            <video id="filme" controls poster="imagens/video-mini03.jpg">
+                <source src="media/getting-started.mp4"/>
+                Desculpe, mas não foi possível carregar o vídeo obs: verifique se seu navegador esta desatualizado.
+            </video>
+        </div>
+    </article>
+</section>
         <footer id="rodape">
         <p>Copyright 2013 - by Gustavo Guanabara <br/>
         <a href="http://facebook.com" target="_blank">Facebook</a> | 
